@@ -1,18 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: iransans;
-  src: url(./dist/assets/fonts/IRANSans.ttf);
-  src: url(./dist/assets/fonts/IRANSans-Medium.woff);
-  src: url(./dist/assets/fonts/IRANSans.woff2);
-}
-@font-face {
-  font-family: iransansmedium;
-  src: url(./dist/assets/fonts/IRANSans-Medium.ttf);
-  src: url(./dist/assets/fonts/IRANSans-Medium.woff);
-  src: url(./dist/assets/fonts/IRANSans-Medium.woff2);
-}
-body {
-  font-family: iransans, iransansmedium;
+@layer base {
+  @font-face {
+    font-family: iransans;
+    src: url(./fonts/IRANSans.ttf);
+    src: url(./fonts/IRANSans.ttf);
+    src: url(./fonts/IRANSans.woff2);
+  }
+  @font-face {
+    font-family: iransansmedium;
+    src: url(./fonts/IRANSans-Medium.ttf);
+    src: url(./fonts/IRANSans-Medium.woff);
+    src: url(./fonts/IRANSans-Medium.woff2);
+  }
+  body {
+    font-family: iransans, iransansmedium;
+  }
 }
