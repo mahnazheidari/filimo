@@ -20,6 +20,10 @@
   .kid{
     background: -webkit-linear-gradient(245deg, #05c3ff 0, #151515 40%);
   }
+  .bgsabz{
+    background: radial-gradient(100% 410.68% at 100% 100%, rgba(0, 29, 13, .54) );
+
+  }
 }
 .swiper {
   width: 100%;

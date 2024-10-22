@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
+    <!-- -----بخش header------ -->
     <header class="fixed flex w-full items-center justify-between bg-black px-3 py-2">
-      <div class="flex gap-5 items-center">
+      <div class="flex gap-7 items-center">
         <div>
           <img
             class="h-auto w-20"
@@ -23,11 +24,12 @@
           <p class="text-white text-xs font-bold hidden lg:block">فیلیمومدرسه</p>
         </div>
         <div class="flex items-center">
-          <img class=" lg:block" src="./images/magnifire.svg" alt="magnifire">
+          <img class=" hidden lg:block" src="./images/magnifire.svg" alt="magnifire">
           <p class="text-white text-xs font-bold hidden landscape:block">جستجو</p>
         </div>
       
       </div>
+      
             <div class="flex gap-3">
               <div>
                 <img
@@ -44,6 +46,8 @@
               </button>
             </div>
           </header>
+
+
           <main class="bg-gray-900">
             <div class="w-[460px] h-[552] bg-[url(`/public/images/shamirani.webp`)] ">
       <!-- <div class="absolute w-full h-550px">
@@ -355,7 +359,7 @@
       
       
       <!-- بخش (موبایل) سینما آنلاین فیلیمو   -->
-      <div class="bg-[url('../public/images/backred.webp')] bg-repeat-round pb-7 mx-auto lg:h-[540px] ">    
+      <div class="bg-[url('../public/images/backred.webp')] bg-cover pb-7 mx-auto lg:h-[540px] ">    
       <div class="mb-5">
         <p class="text-white text-l  font-bold text-center pt-8">سینما آنلاین فیلیمو</p>
       
@@ -438,7 +442,7 @@
       
       
       
-      <div class="bg-stone-950 h-[323px] mt-[40px]">
+      <div class="bg-stone-950 h-[333px] mt-[40px]">
       <div class="flex gap-[70px] items-center  justify-between px-3 pt-[20px]">
         <p class="text-white text-l  font-bold  pt-8">
           نظر کاربران بعد از تماشای فیلیمو
@@ -459,11 +463,13 @@
           <p class="text-white text-xs mt-[30px] px-5">
             بسیار خوب و مناسب برای فیلم دیدن و انجام کارهای روزمره، نسبت به سایر اندروید باکس‌ها و نسبت به قیمتش خیلی مناسبه </p>
             </div>
-            <div class="bg-[#151515] h-[405px] pb-2">
+
+<!-- --بخش سوالات متداول -->
+            <div class="bg-[#151515] max-h-[405px] pb-2 lg:h[440px] ">
               <p class="text-white text-center text-l pt-8">سوالات متداول</p>
               <p class="text-white  text-center text-xs pt-5 pb-9">سوال شایع دیگر کاربران شاید شاید برای شما پیش آمده باشد</p>
               <div>
-                <div class="flex mx-auto py-3 border-2 px-2 mx-2 justify-between rounded-xl mb-2 bg-stone-900">
+                <div class="flex mx-auto py-3 border-2 px-2  justify-between rounded-xl mb-2 bg-stone-900">
                   <p class="text-white text-sm font-bold ">آیا می توانم فیلم های موجود در فیلیمو را دانلود کنم؟</p>
       <img src="/images/plus.svg" alt="plus">     
            </div>
@@ -481,11 +487,13 @@
                 </div>
                 </div>
               </div>
-      <div class="h-[368px] bg-[#151517]">
-        <div class="py-10">  
+
+<!-- --بخش فیلیمو با بکگراند سبز-- -->
+      <div class="bg-green-950 h-[368px]">
+        <div class="py-10  flex justify-center w-full">  
           <img src="./images/filimobig.webp" alt="filimobig">
         </div>
-        <div class="*:w-fit pb-3">
+        <div class="*:w-fit pb-3 lg:flex ">
           <div class="flex gap-1 mx-auto py-3">
             <img class="h-4 w-4" src="./images/tik.webp" alt="tik" />
             <p class="text-white text-xs">
@@ -506,30 +514,47 @@
             </p>
           </div>
         </div>
-        <div class="mx-auto flex w-fit gap-1 rounded-md bg-[#17924e] px-10 py-4 mt-3">
+        <div class="mx-auto flex w-fit gap-1 rounded-md bg-[#17924e] px-10 py-4 mt-3 lg:mt-6">
           <img src="./images/svgexport-6.svg" alt="کنار دکمه" />
           <span class="size-xs rounded-md text-white"> خرید اشتراک و تماشا </span>
         </div>
       </div>
-      <div class=" flex items-center justify-between h-[30px] bg-[#151515]">
-        <div class="flex gap-3">
-          <img class="w-[20px] h-[20px]" src="/images/fleshup.svg" alt="fleshup">
+
+<!-- --بخش footer-- -->
+      <footer class=" flex items-center justify-between h-[30px] bg-[#151515] px-2">
+        
+        <div class="flex gap-3"> 
+          <img class="w-[20px] h-[20px] lg:hidden" src="/images/fleshup.svg" alt="fleshup">
           <div class="flex gap-1">
-            <img class="w-[18px] h-[18px]" src="/images/TV.webp" alt="tv">
+            <img class="w-[18px] h-[18px] " src="/images/TV.webp" alt="tv">
             <p class=" text-white text-[11px] font-bold">تماشا با تلویزیون</p>
           </div>
           <p class=" text-white text-[11px] font-bold">اپلیکیشن ها</p>
+          <p class="hidden lg:block text-white text-[11px] font-bold"> تماس و پشتیبانی</p>
+          <p class="hidden lg:block text-white text-[11px] font-bold"> فروشگاه</p>
+
       <div class="flex gap-1">
       <img  class="w-[16px] h-[18px]" src="/images/plus.svg" alt="plus">
-      <p class="text-white text-[11px] font-bold">لینکهای مفید</p>
+      <p class="text-white text-[11px] font-bold lg:hidden">لینکهای مفید</p>
+      <p class="hidden text-white text-[11px] font-bold lg:block">سایر لینک ها</p>
+
       </div>
         </div>
-        <div>
-          <img src="./images/3dot.svg" alt="3dot">
+
+
+        <div class="flex gap-1">
+          <img class="lg:hidden" src="./images/3dot.svg" alt="3dot">
+          <img  class="hidden w-[16px] h-[18px] lg:block" src="/images/plus.svg" alt="plus">
+          <p class="hidden text-white text-[11px] font-bold lg:block">شبکه های اجتماعی</p>
+
         </div>
-      </div>
-      
+      </footer>
+
+
+
           </main>
 
   </body>
 </html>
+
+
